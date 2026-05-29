@@ -42,6 +42,17 @@ export function SiteFooter() {
           <span className="inline-block mx-2 text-ember-400">✦</span>
           <span className="text-brand-400 not-italic tracking-widest">2026</span>
         </p>
+
+        <p className="text-center text-[11px] text-brand-400 mt-3 leading-relaxed">
+          © 2026 禁羈友善助人工作者資源網 ・ 內容與程式碼僅供非商業用途，使用前請來信
+          <a
+            href="mailto:bdsmertherapist@gmail.com"
+            className="ml-1 underline decoration-brand-300 underline-offset-2 hover:text-brand-700 hover:decoration-ember-500 transition-colors"
+          >
+            bdsmertherapist@gmail.com
+          </a>
+          取得同意。
+        </p>
       </div>
     </footer>
   );

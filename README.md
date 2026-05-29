@@ -87,6 +87,20 @@ npm run generate-og  # 重新生成 OG 圖（需要系統 Chrome）
 
 `legacy/` 保留最早的 vanilla JS 版本（`index.html` + `data.js` + `script.js`）作為歷史備份。
 
+## 版權與使用條款
+
+© 2026 禁羈友善助人工作者資源網
+
+本資源網所收錄之名單、文字內容、設計與網站程式碼，皆受著作權法保護。
+
+- 本資源網僅供個人查閱與**非商業用途**使用。
+- 任何形式之轉載、再次發佈、改作、整合或商業使用，請於使用前來信
+  [bdsmertherapist@gmail.com](mailto:bdsmertherapist@gmail.com) 取得書面同意。
+- 名單中之助人者個資，已取得當事人「公開列入本資源網」之同意；
+  此同意不得視為授權第三方轉用其資料。
+
+完整條款請見 [`LICENSE`](./LICENSE)。
+
 ---
 
 made with love ✦ 2026

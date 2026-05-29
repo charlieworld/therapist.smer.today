@@ -79,6 +79,30 @@ const CHAPTERS: Chapter[] = [
       </>
     ),
   },
+  {
+    num: '06',
+    title: '版權與使用條款',
+    body: (
+      <>
+        本資源網所收錄之助人者名單、文字內容、設計與網站程式碼，皆受著作權法保護。
+        本資源網僅供個人查閱與非商業用途使用。
+        <br />
+        <br />
+        任何形式之轉載、再次發佈、改作、整合或商業使用，請於使用前以電子郵件聯絡
+        <a
+          href="mailto:bdsmertherapist@gmail.com"
+          className="mx-1 text-ember-600 underline decoration-ember-300 underline-offset-4 hover:decoration-ember-600 transition-colors break-all"
+        >
+          bdsmertherapist@gmail.com
+        </a>
+        並取得書面同意。
+        <br />
+        <br />
+        名單中之助人者個資，已取得當事人「公開列入本資源網」之同意；
+        此同意僅限於本資源網之展示與查閱，不得視為授權第三方轉用其資料。
+      </>
+    ),
+  },
 ];
 
 export function AboutPage() {
