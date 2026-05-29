@@ -1,22 +1,100 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-50: #fdf8f6;
-  --color-brand-100: #f2e8e5;
-  --color-brand-200: #eaddd7;
-  --color-brand-300: #e0cec7;
-  --color-brand-400: #d2bab0;
-  --color-brand-500: #a18e87;
-  --color-brand-600: #84746f;
-  --color-brand-700: #635753;
-  --color-brand-800: #443c39;
-  --color-brand-900: #26211f;
+  /* Earth tones — primary palette */
+  --color-brand-50: #fbf5ef;
+  --color-brand-100: #f2e8e0;
+  --color-brand-200: #e8d8cb;
+  --color-brand-300: #d9c3b1;
+  --color-brand-400: #b89e8a;
+  --color-brand-500: #8c7567;
+  --color-brand-600: #6b574b;
+  --color-brand-700: #4d3f36;
+  --color-brand-800: #332821;
+  --color-brand-900: #1c1612;
 
-  --font-sans: "Noto Sans TC", "Inter", system-ui, sans-serif;
+  /* Ember — terracotta accent (warm sunset through paper) */
+  --color-ember-50: #fdf5ee;
+  --color-ember-100: #fae7d3;
+  --color-ember-200: #f5cea9;
+  --color-ember-300: #ecaf7d;
+  --color-ember-400: #de8a55;
+  --color-ember-500: #c87139;
+  --color-ember-600: #a85a2e;
+  --color-ember-700: #844527;
+  --color-ember-800: #5d3120;
+  --color-ember-900: #381e14;
+
+  /* Sage — muted moss for "available/remote" indicators */
+  --color-sage-50: #f1f3ec;
+  --color-sage-100: #dde3d2;
+  --color-sage-200: #c5cfb2;
+  --color-sage-300: #a8b58e;
+  --color-sage-400: #8a986e;
+  --color-sage-500: #6f7d56;
+  --color-sage-600: #566242;
+  --color-sage-700: #404a31;
+  --color-sage-800: #2c3322;
+  --color-sage-900: #1a1f14;
+
+  /* Surface tints */
+  --color-paper: #fbf5ef;
+  --color-paper-warm: #f7ecdf;
+
+  /* Typography */
+  --font-sans: "Noto Sans TC", system-ui, sans-serif;
+  --font-serif: "Fraunces", "Noto Serif TC", "Songti TC", serif;
+  --font-serif-tc: "Noto Serif TC", "Songti TC", serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: var(--font-sans);
-  background-color: var(--color-brand-50);
+  background-color: var(--color-paper);
   color: var(--color-brand-800);
+  font-feature-settings: "palt" 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Letter-spacing tuning for Chinese display */
+.font-serif {
+  font-family: var(--font-serif);
+}
+.font-serif-tc {
+  font-family: var(--font-serif-tc);
+}
+
+/* Animated breathing for accent elements */
+@keyframes breathe {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.03); }
+}
+.animate-breathe {
+  animation: breathe 6s ease-in-out infinite;
+}
+
+/* Focus ring — warmer than default */
+*:focus-visible {
+  outline: 2px solid var(--color-ember-500);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--color-ember-200);
+  color: var(--color-brand-900);
+}
+
+/* Subtle paper grain — applied as overlay via component */
+.grain-overlay {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.4 0 0 0 0 0.3 0 0 0 0 0.2 0 0 0 0.12 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode: multiply;
+  opacity: 0.35;
+  pointer-events: none;
 }

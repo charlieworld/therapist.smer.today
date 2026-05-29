@@ -5,14 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && cp dist/index.html dist/404.html",
     "preview": "vite preview",
     "fetch-data": "node scripts/fetch-sheet.mjs",
     "typecheck": "tsc -b --noEmit"
   },
   "dependencies": {
+    "motion": "^12.40.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.16.0"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.13",

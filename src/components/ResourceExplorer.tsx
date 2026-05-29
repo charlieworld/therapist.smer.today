@@ -64,31 +64,38 @@ export function ResourceExplorer() {
         onlyRemote={onlyRemote}
         onOnlyRemoteChange={setOnlyRemote}
         regions={regions}
+        resultCount={filtered.length}
+        totalCount={data?.count ?? 0}
       />
-      <main className="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+      <section className="max-w-6xl w-full mx-auto px-4 sm:px-8 py-10">
         {error && (
-          <div className="text-center py-20 text-red-600">
-            無法載入資料：{error}
+          <div className="text-center py-20 text-ember-700 font-serif italic">
+            無法載入資料 ・ {error}
           </div>
         )}
         {!error && !data && (
-          <div className="text-center py-20 text-brand-500">載入中…</div>
+          <div className="text-center py-20 text-brand-400 font-serif italic">…</div>
         )}
         {data && filtered.length === 0 && <NoResults />}
         {data && filtered.length > 0 && (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filtered.map((r) => (
-              <ResourceCard key={`${r.name}-${r.agency}`} resource={r} />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+            {filtered.map((r, i) => (
+              <ResourceCard key={`${r.name}-${r.agency}-${i}`} resource={r} index={i} />
             ))}
           </div>
         )}
+
         {data && (
-          <p className="text-center text-xs text-brand-400 mt-12">
-            共 {filtered.length} 筆 / 全部 {data.count} 筆 ・ 最後更新：
-            {new Date(data.updated_at).toLocaleString('zh-TW')}
+          <p className="font-serif italic text-center text-xs text-brand-400 mt-14 tracking-wide">
+            updated · {new Date(data.updated_at).toLocaleDateString('zh-TW', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            })}
           </p>
         )}
-      </main>
+      </section>
     </>
   );
 }
