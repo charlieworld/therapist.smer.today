@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build && cp dist/index.html dist/404.html",
     "preview": "vite preview",
     "fetch-data": "node scripts/fetch-sheet.mjs",
+    "generate-og": "node scripts/generate-og.mjs",
     "typecheck": "tsc -b --noEmit"
   },
   "dependencies": {
@@ -23,6 +24,7 @@
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.2",
     "papaparse": "^5.5.3",
+    "puppeteer-core": "^25.1.0",
     "tailwindcss": "^4.1.13",
     "typescript": "^5.9.2",
     "vite": "^7.1.4"
