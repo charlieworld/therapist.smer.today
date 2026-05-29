@@ -39,6 +39,8 @@ export function SiteFooter() {
 
         <p className="font-serif italic text-center text-ember-600/80 text-sm mt-10 tracking-wider">
           made with love
+          <span className="inline-block mx-2 text-ember-400">✦</span>
+          <span className="text-brand-400 not-italic tracking-widest">2026</span>
         </p>
       </div>
     </footer>
