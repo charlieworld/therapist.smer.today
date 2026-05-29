@@ -11,13 +11,13 @@ export function SiteFooter() {
               <dt className="font-serif italic text-[11px] text-brand-400 tracking-wider uppercase whitespace-nowrap">
                 發起 ・ 資料維護
               </dt>
-              <dd className="text-brand-700">長裙富翁、小藤</dd>
+              <dd className="text-brand-500">長裙富翁、小藤</dd>
             </div>
             <div className="grid grid-cols-[auto_1fr] gap-x-3 items-baseline">
               <dt className="font-serif italic text-[11px] text-brand-400 tracking-wider uppercase whitespace-nowrap">
                 網頁工程 ・ 維護
               </dt>
-              <dd className="text-brand-700">TinaTea 緹、柚子泥</dd>
+              <dd className="text-brand-500">TinaTea 緹、柚子泥</dd>
             </div>
           </dl>
 
