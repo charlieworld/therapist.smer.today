@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T03:43:18.167Z",
+  "updated_at": "2026-06-04T03:41:48.955Z",
   "source": "https://docs.google.com/spreadsheets/d/1zyTtdvSDtiKjAVUbcNXFGKP2IQ_0DleBmZwXZxLacTk/edit?gid=1534828108",
   "count": 41,
   "resources": [
@@ -153,12 +153,13 @@
         "新竹"
       ],
       "is_remote": false,
-      "agency": "明新科技大學",
-      "booking": "限明新科技大學學生可於諮商中心網站預約",
+      "agency": "重明心理諮商所",
+      "booking": "機構官方網站：https://reunirecounseling.com/，或是官方LINE：@984fwzkq",
       "topics": [
-        "BDSM族群友善",
         "性諮商",
-        "開放與多重關係"
+        "BDSM族群友善",
+        "開放與多重關係",
+        "D/s關係經營"
       ],
       "notes": ""
     },
