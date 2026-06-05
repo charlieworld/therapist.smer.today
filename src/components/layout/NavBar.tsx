@@ -14,7 +14,7 @@ export function NavBar() {
           <Link to="/" className="group inline-flex items-baseline gap-3">
             <span className="font-serif italic text-ember-600 text-xl">therapist</span>
             <span className="text-xs tracking-[0.3em] uppercase text-brand-500">
-              ・ TW ・ a quiet directory
+              Kink-Aware Professionals in Taiwan
             </span>
           </Link>
 

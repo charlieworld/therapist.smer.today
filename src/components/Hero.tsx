@@ -27,7 +27,7 @@ export function Hero() {
             <p className="text-brand-700 text-base sm:text-lg leading-[1.85]">
               這是一份小小的、安靜的目錄。
               <br />
-              整理願意公開標註為「禁羈友善」的專業助人者，
+              願意公開標註為「禁羈友善」的專業助人者，
               希望讓需要心理支持的 BDSMer，更容易找到理解、被接納的陪伴。
             </p>
           </div>
