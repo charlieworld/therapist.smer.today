@@ -2,8 +2,8 @@ name: Refresh data from Google Sheet
 
 on:
   schedule:
-    # 每 3 天執行一次（UTC 00:00，對應台灣時間早上 8:00）
-    - cron: '0 0 */3 * *'
+    # 每天執行一次（UTC 00:00，對應台灣時間早上 8:00）
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 permissions:

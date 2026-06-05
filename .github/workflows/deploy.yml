@@ -27,6 +27,9 @@ jobs:
 
       - run: npm ci
 
+      - name: Fetch latest sheet data
+        run: npm run fetch-data
+
       - run: npm run build
 
       - uses: actions/configure-pages@v5

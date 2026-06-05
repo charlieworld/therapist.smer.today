@@ -14,7 +14,7 @@ export function ResourceExplorer() {
   const [onlyRemote, setOnlyRemote] = useState(false);
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}data.json`)
+    fetch(`${import.meta.env.BASE_URL}data.json?v=${__BUILD_TIME__}`)
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json() as Promise<ResourceData>;
