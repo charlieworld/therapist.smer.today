@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from "motion/react";
 
 interface Chapter {
   num: string;
@@ -8,12 +8,12 @@ interface Chapter {
 
 const CHAPTERS: Chapter[] = [
   {
-    num: '01',
-    title: '關於資源網',
+    num: "01",
+    title: "關於資源網",
     body: (
       <>
-        這裡是願意公開標註為「禁羈友善」的專業助人者名單。我們致力於讓需要心理支持的 BDSMer，
-        能更容易找到理解、多元友善、值得信任的專業工作者。
+        這裡是願意公開標註為「禁羈友善」的專業助人者名單。我們致力於讓需要心理支持的
+        BDSMer， 能更容易找到多元友善、理解 BDSM/Kink 的專業工作者。
         <br />
         <br />
         目前國內幾乎沒有相關資源，因此這是一項初步行動。透過助人者願意現身、清楚表示自身的友善立場，
@@ -22,12 +22,12 @@ const CHAPTERS: Chapter[] = [
     ),
   },
   {
-    num: '02',
-    title: '如何使用這份名單',
+    num: "02",
+    title: "如何使用這份名單",
     body: (
       <>
         點選導覽列的「助人者名單」，內容包含助人者的姓名、執業地點、聯繫方式與簡短介紹。
-        你可以依照個人的需求直接聯繫助人者，若你願意，也能在聯繫時說明是透過本資源網得知資訊。
+        你可以依照個人的需求，依循網站提供的聯繫方式來聯繫助人者，若你願意，也能在聯繫時說明是透過本資源網得知資訊。
         <br />
         <br />
         若想確定彼此是否合適，建議可再查看助人者的公開資料、評價或先安排一次初談，感受是否契合。
@@ -35,8 +35,8 @@ const CHAPTERS: Chapter[] = [
     ),
   },
   {
-    num: '03',
-    title: '助人者的審查方式',
+    num: "03",
+    title: "助人者的審查方式",
     body: (
       <>
         為了讓名單能持續且穩定地更新，我們採取形式審查。
@@ -50,8 +50,8 @@ const CHAPTERS: Chapter[] = [
     ),
   },
   {
-    num: '04',
-    title: '免責聲明',
+    num: "04",
+    title: "免責聲明",
     body: (
       <>
         本名單僅作為資訊公開使用，不參與也不介入任何諮商契約、安排或後續互動。
@@ -65,8 +65,8 @@ const CHAPTERS: Chapter[] = [
     ),
   },
   {
-    num: '05',
-    title: '修改或撤除名單資訊',
+    num: "05",
+    title: "修改或撤除名單資訊",
     body: (
       <>
         若助人者希望更新資料或退出名單，可寄信至：
@@ -80,8 +80,8 @@ const CHAPTERS: Chapter[] = [
     ),
   },
   {
-    num: '06',
-    title: '版權與使用條款',
+    num: "06",
+    title: "版權與使用條款",
     body: (
       <>
         本資源網所收錄之助人者名單、文字內容、設計與網站程式碼，皆受著作權法保護。
@@ -125,7 +125,11 @@ export function AboutPage() {
             initial={{ opacity: 0, y: 12 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
-            transition={{ duration: 0.5, delay: i * 0.05, ease: [0.22, 0.61, 0.36, 1] }}
+            transition={{
+              duration: 0.5,
+              delay: i * 0.05,
+              ease: [0.22, 0.61, 0.36, 1],
+            }}
             className="grid grid-cols-[auto_1fr] gap-x-6 sm:gap-x-10 gap-y-3"
           >
             <span className="font-serif italic text-ember-500 text-3xl sm:text-4xl leading-none pt-1">
@@ -135,14 +139,18 @@ export function AboutPage() {
               {ch.title}
             </h2>
             <span aria-hidden />
-            <p className="text-brand-700 leading-[1.95] text-[15.5px] sm:text-base">{ch.body}</p>
+            <p className="text-brand-700 leading-[1.95] text-[15.5px] sm:text-base">
+              {ch.body}
+            </p>
           </motion.section>
         ))}
       </div>
 
       <div className="mt-24 pt-10 border-t border-brand-200/60 text-center">
         <p className="font-serif italic text-brand-400 text-sm leading-relaxed">
-          願這份名單，能成為某一個夜裡<br />一道微光。
+          願這份名單，能成為某一個夜裡
+          <br />
+          一道微光。
         </p>
       </div>
     </article>
