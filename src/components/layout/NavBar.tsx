@@ -12,7 +12,7 @@ export function NavBar() {
       <div className="max-w-6xl mx-auto px-4 sm:px-8 pt-6 pb-4">
         <div className="flex items-end justify-between gap-6 flex-wrap">
           <Link to="/" className="group inline-flex items-baseline gap-3">
-            <span className="font-serif italic text-ember-600 text-xl">therapis</span>
+            <span className="font-serif italic text-ember-600 text-xl">therapist</span>
             <span className="text-xs tracking-[0.3em] uppercase text-brand-500">
               ・ TW ・ a quiet directory
             </span>

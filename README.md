@@ -1,8 +1,8 @@
-# therapis.smer.today
+# therapist.smer.today
 
 > 禁羈友善助人工作者資源網 — 整理願意公開標註為「禁羈友善」的專業助人者名單，讓需要心理支持的 BDSMer 更容易找到理解、被接納的陪伴。
 
-正式網站：<https://therapis.smer.today>
+正式網站：<https://therapist.smer.today>
 
 資料來源：[臺灣 BDSMer 友善之助人工作者資源網（Google Sheet）](https://docs.google.com/spreadsheets/d/1zyTtdvSDtiKjAVUbcNXFGKP2IQ_0DleBmZwXZxLacTk/edit?gid=1534828108)
 
@@ -79,7 +79,7 @@ npm run generate-og  # 重新生成 OG 圖（需要系統 Chrome）
 
 ## 部署
 
-- 自訂網域 `therapis.smer.today`（CNAME 設定在 `public/CNAME`）
+- 自訂網域 `therapist.smer.today`（CNAME 設定在 `public/CNAME`）
 - Repo Settings → Pages → Source 設為 **GitHub Actions**
 - SPA 路由 fallback：build 階段把 `index.html` 複製成 `404.html`，讓 GitHub Pages 在打到不存在的路徑時仍交給 React Router 處理
 
