@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-02T02:35:28.133Z",
+  "updated_at": "2026-07-03T02:10:30.418Z",
   "source": "https://docs.google.com/spreadsheets/d/1zyTtdvSDtiKjAVUbcNXFGKP2IQ_0DleBmZwXZxLacTk/edit?gid=1534828108",
-  "count": 43,
+  "count": 44,
   "resources": [
     {
       "name": "王仁佑",
@@ -40,10 +40,9 @@
       "name": "王基瑋",
       "gender": "男",
       "title": "諮商心理師",
-      "region": "新北、僅實體",
+      "region": "新北",
       "regions": [
-        "新北",
-        "僅實體"
+        "新北"
       ],
       "is_remote": false,
       "agency": "合誼身心診所",
@@ -52,7 +51,7 @@
         "BDSM族群友善",
         "長期合作督導擅長相關議題"
       ],
-      "notes": "有執行機構補助方案，如青壯年方案、國軍方案等"
+      "notes": "有執行機構補助方案，如青壯年方案、國軍方案等，僅實體"
     },
     {
       "name": "史捷",
@@ -76,9 +75,9 @@
       "name": "李雅琳",
       "gender": "女",
       "title": "社工人員/社工師",
-      "region": "新北市",
+      "region": "新北",
       "regions": [
-        "新北市"
+        "新北"
       ],
       "is_remote": false,
       "agency": "台灣世界展望會",
@@ -141,6 +140,25 @@
       "booking": "機構網站",
       "topics": [
         "性諮商"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "林杰勳",
+      "gender": "男",
+      "title": "諮商心理師",
+      "region": "雙北",
+      "regions": [
+        "雙北"
+      ],
+      "is_remote": false,
+      "agency": "合誼身心診所/交感身心診所/米露谷治療所",
+      "booking": "機構網站",
+      "topics": [
+        "性諮商",
+        "開放與多重關係",
+        "關係經營與結束",
+        "BDSM族群友善"
       ],
       "notes": ""
     },
@@ -416,10 +434,10 @@
       "name": "曾威豪",
       "gender": "男",
       "title": "諮商心理師",
-      "region": "台北、可遠距",
+      "region": "台北、遠距",
       "regions": [
         "台北",
-        "可遠距"
+        "遠距"
       ],
       "is_remote": true,
       "agency": "島語心理諮商所",
@@ -579,9 +597,9 @@
       "name": "詹穎文",
       "gender": "女",
       "title": "諮商心理師",
-      "region": "台北市",
+      "region": "台北",
       "regions": [
-        "台北市"
+        "台北"
       ],
       "is_remote": false,
       "agency": "沐慕身心診所",
@@ -723,9 +741,9 @@
       "name": "戴英洲",
       "gender": "男",
       "title": "諮商心理師",
-      "region": "台北市",
+      "region": "台北",
       "regions": [
-        "台北市"
+        "台北"
       ],
       "is_remote": false,
       "agency": "理馨西門館心理諮商所",
@@ -780,10 +798,10 @@
       "name": "嚴靚",
       "gender": "女",
       "title": "諮商心理師",
-      "region": "台北市/新北市",
+      "region": "台北、新北",
       "regions": [
-        "台北市",
-        "新北市"
+        "台北",
+        "新北"
       ],
       "is_remote": false,
       "agency": "蘊寬心理諮商所/合誼身心診所",
