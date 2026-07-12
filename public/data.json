@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-11T01:56:26.967Z",
+  "updated_at": "2026-07-12T02:00:10.221Z",
   "source": "https://docs.google.com/spreadsheets/d/1zyTtdvSDtiKjAVUbcNXFGKP2IQ_0DleBmZwXZxLacTk/edit?gid=1534828108",
-  "count": 44,
+  "count": 45,
   "resources": [
     {
       "name": "王仁佑",
@@ -68,6 +68,22 @@
       "topics": [
         "性諮商",
         "開放與多重關係"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "江宜蓁",
+      "gender": "女",
+      "title": "諮商心理師",
+      "region": "桃園",
+      "regions": [
+        "桃園"
+      ],
+      "is_remote": false,
+      "agency": "新生醫專心理諮商中心",
+      "booking": "至校園心諮中心洽詢",
+      "topics": [
+        "BDSM 族群友善"
       ],
       "notes": ""
     },
