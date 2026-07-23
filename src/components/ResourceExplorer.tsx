@@ -6,6 +6,15 @@ import { NoResults } from './NoResults';
 
 const NON_REGION_TOKENS = new Set(['遠距', '線上', '僅實體', '可遠距']);
 
+function shuffle<T>(items: T[]): T[] {
+  const result = [...items];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
 export function ResourceExplorer() {
   const [data, setData] = useState<ResourceData | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -19,7 +28,7 @@ export function ResourceExplorer() {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json() as Promise<ResourceData>;
       })
-      .then(setData)
+      .then((json) => setData({ ...json, resources: shuffle(json.resources) }))
       .catch((err) => setError(String(err)));
   }, []);
 
