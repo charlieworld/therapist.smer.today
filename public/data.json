@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T02:10:00.874Z",
+  "updated_at": "2026-07-28T01:50:26.093Z",
   "source": "https://docs.google.com/spreadsheets/d/1zyTtdvSDtiKjAVUbcNXFGKP2IQ_0DleBmZwXZxLacTk/edit?gid=1534828108",
   "count": 45,
   "resources": [
@@ -335,9 +335,9 @@
       "name": "高薇雯",
       "gender": "女",
       "title": "諮商心理師",
-      "region": "台北",
+      "region": "雙北",
       "regions": [
-        "台北"
+        "雙北"
       ],
       "is_remote": false,
       "agency": "人生設計心理諮商所、南方心理諮商所",
@@ -351,9 +351,9 @@
       "name": "張慧嬅",
       "gender": "女",
       "title": "諮商心理師",
-      "region": "臺北、新北",
+      "region": "台北、新北",
       "regions": [
-        "臺北",
+        "台北",
         "新北"
       ],
       "is_remote": false,
