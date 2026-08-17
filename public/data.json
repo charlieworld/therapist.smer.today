@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-16T00:50:57.940Z",
+  "updated_at": "2026-08-17T00:48:14.907Z",
   "source": "https://docs.google.com/spreadsheets/d/1zyTtdvSDtiKjAVUbcNXFGKP2IQ_0DleBmZwXZxLacTk/edit?gid=1534828108",
-  "count": 45,
+  "count": 46,
   "resources": [
     {
       "name": "王仁佑",
@@ -823,6 +823,23 @@
       "agency": "蘊寬心理諮商所/合誼身心診所",
       "booking": "yj.counseling@gmail.com",
       "topics": [
+        "BDSM族群友善"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "曾瓊瑩",
+      "gender": "女",
+      "title": "諮商心理師",
+      "region": "新竹",
+      "regions": [
+        "新竹"
+      ],
+      "is_remote": false,
+      "agency": "重明諮商所",
+      "booking": "機構網站",
+      "topics": [
+        "開放與多重關係",
         "BDSM族群友善"
       ],
       "notes": ""
