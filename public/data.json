@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T06:26:12.908Z",
+  "updated_at": "2026-08-28T08:17:22.081Z",
   "source": "https://docs.google.com/spreadsheets/d/1zyTtdvSDtiKjAVUbcNXFGKP2IQ_0DleBmZwXZxLacTk/edit?gid=1534828108",
   "count": 46,
   "resources": [
@@ -129,17 +129,18 @@
       "name": "林伯聰",
       "gender": "男",
       "title": "諮商心理師",
-      "region": "雙北",
+      "region": "新北",
       "regions": [
-        "雙北"
+        "新北"
       ],
       "is_remote": false,
-      "agency": "點心語心理諮商所、點晴心理諮商中心",
-      "booking": "機構網站",
+      "agency": "柴光心理諮商所",
+      "booking": "機構網站：https://shibalight.com/contact/",
       "topics": [
         "性諮商",
-        "開放與多重關係",
-        "D/s關係經營"
+        "開放多重伴侶關係",
+        "多元性別相關",
+        "禁羈關係探索經營"
       ],
       "notes": ""
     },
